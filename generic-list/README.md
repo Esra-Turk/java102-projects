@@ -1,6 +1,6 @@
 # GENERİCS
 
-## Designing a class in Java where we hold data using the generic class and method.
+## Designing a class using the generic class and method in Java
 
 Created MyList class without using the collection class
 
