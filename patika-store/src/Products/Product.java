@@ -1,3 +1,7 @@
+package Products;
+
+import Trademark.Trademark;
+
 public abstract class Product {
     private String productName;
     private int amountOfStock;

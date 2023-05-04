@@ -1,10 +1,14 @@
-public class Phone extends Product{
+package Products;
+
+import Trademark.Trademark;
+
+public class Phone extends Product {
 
     private double batteryPower;
     private int camera;
     private String color;
 
-    public Phone(String productName,int amountOfStock, int ram, int storage, double unitPrice, double discountRate, double screenSize,  Trademark tradeMark, double batteryPower, int camera, String color) {
+    public Phone(String productName, int amountOfStock, int ram, int storage, double unitPrice, double discountRate, double screenSize, Trademark tradeMark, double batteryPower, int camera, String color) {
         super(productName,amountOfStock, ram, storage, unitPrice, discountRate, screenSize, tradeMark);
         this.batteryPower = batteryPower;
         this.camera = camera;

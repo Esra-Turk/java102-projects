@@ -1,3 +1,4 @@
+package Trademark;
 
 public class Trademark{
     private int id;

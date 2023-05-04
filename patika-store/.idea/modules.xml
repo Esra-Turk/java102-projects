@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/insurance-management-system.iml" filepath="$PROJECT_DIR$/insurance-management-system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/patika-store.iml" filepath="$PROJECT_DIR$/patika-store.iml" />
     </modules>
   </component>
 </project>

@@ -1,7 +1,9 @@
+package Store;
+
 import Products.Notebook;
 import Products.Phone;
 import Products.Product;
-import Trademark.Trademark;
+import Trademark.*;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -39,7 +41,7 @@ public class PatikaStore {
        listPhone.add(new Phone("SAMSUNG GALAXY A51 ",10,6,128,3199.0,0.2,6.5, new Trademark(1,"Samsung"),4000.0,32,"Black"));
        listPhone.add(new Phone("iPhone 11 64 GB ",11,6,64,7379.0,0.1,6.1, new Trademark(3,"Apple"),3046.0,5,"Blue"));
        listPhone.add(new Phone("SAMSUNG GALAXY A51 ",10,6,128,4012.0,0.2,6.5, new Trademark(8,"Xiaomi"),4000.0,35,"White"));
-        return listPhone;
+       return listPhone;
     }
 
     public static List<Product> addNotebook(){
@@ -54,9 +56,9 @@ public class PatikaStore {
                 System.out.println("Ürün bulunamadı.");
                 return;
             }
-            if(products.size() < 7){
+            if(products.get(0)){
                 System.out.println("-----------------------------------------------------------------------------------------");
-                System.out.println("ID\t\t" + "Products.Product Name\t\t" + "Brand\t" + "Price\t" + "Storage\t" + "Screen Size\t "+ "RAM");
+                System.out.println("ID\t\t" + "Product Name\t\t" + "Brand\t" + "Price\t" + "Storage\t" + "Screen Size\t "+ "RAM");
                 System.out.println("-----------------------------------------------------------------------------------------");
                 for (int i = 0; i < products.size(); i++) {
                     Product product = products.get(i);
